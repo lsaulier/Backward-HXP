@@ -1,0 +1,21 @@
+PI,,location,Proportion
+"[0, 4, 4, 3]-0",Action : 0,1
+,Other actions: Best,1
+,Other actions: Average,"[0, 0, 1, 0, 0]",0.2
+
+"[1, 4, 4, 3]-0",Action : 0,0
+,Other actions: Best,1
+,Other actions: Average,"[0, 1, 0, 1, 1]",0.6
+
+"[2, 4, 4, 3]-0",Action : 0,0
+,Other actions: Best,1
+,Other actions: Average,"[1, 0, 0, 0, 0]",0.2
+
+"[3, 4, 4, 3]-0",Action : 0,0
+,Other actions: Best,0
+,Other actions: Average,"[0, 0, 0, 0, 0]",0.0
+
+"[4, 4, 4, 3]-3",Action : 3,0
+,Other actions: Best,0
+,Other actions: Average,"[0, 0, 0, 0, 0]",0.0
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Blackjack.iml" filepath="$PROJECT_DIR$/.idea/Blackjack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Cartpole/.idea/Cartpole.iml" filepath="$PROJECT_DIR$/../Cartpole/.idea/Cartpole.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Cliff-Walking/.idea/Cliff-Walking.iml" filepath="$PROJECT_DIR$/../Cliff-Walking/.idea/Cliff-Walking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Drones area coverage/.idea/Drones area coverage.iml" filepath="$PROJECT_DIR$/../Drones area coverage/.idea/Drones area coverage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Frozen-Lake/.idea/Frozen-Lake.iml" filepath="$PROJECT_DIR$/../Frozen-Lake/.idea/Frozen-Lake.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Taxi/.idea/Taxi.iml" filepath="$PROJECT_DIR$/../Taxi/.idea/Taxi.iml" />
+    </modules>
+  </component>
+</project>

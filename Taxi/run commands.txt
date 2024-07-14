@@ -1,0 +1,23 @@
+Reach Red location from coordinates (2,1) with the passenger in the taxi (slide 30/34 meeting 22/11/9):
+
+python3 test.py -policy test -pre destination -n 1 -spec_his [2, 1, 4, 0] 1 [1, 1, 4, 0] 1 [0, 1, 4, 0] 3 [0, 0, 4, 0] 5 [0, 0, 0, 0] -csv 'dropoff_k4.csv'
+
+Reach red location with the passenger in the taxi:
+
+python3 test.py -policy test -pre destination -n 2 -spec_his 196 0 296 3 276 3 256 3 236 1 136 1 36 3 16 5 0 -csv 'dropoff_k8.csv' -k 8 -enc
+python3 test.py -policy test -pre destination -n 1 -spec_his 296 3 276 3 256 3 236 1 136 1 36 3 16 5 0 -csv 'dropoff_k7.csv' -k 7 -enc
+
+Pick up the passenger at Yellow location:
+
+python3 test.py -policy test -pre start -n 1 -spec_his 288 3 268 3 248 3 228 3 208 0 308 0 408 4 416 -csv 'start_k7.csv' -k 7 -enc
+python3 test.py -policy test -pre start -n 1 -spec_his 248 3 228 3 208 0 308 0 408 4 416 -csv 'start_k5.csv' -k 5 -enc
+
+Reach a specific location (2,2):
+
+python3 test.py -policy test -pre location -pre_info 2 2 -n 1 -spec_his [4, 1, 1, 3] 1 [3, 1, 1, 3] 1 [2, 1, 1, 3] 2 [2, 2, 1, 3] -csv 'location_22_k3.csv' -k 3
+
+Reach a specific location (4,4):
+
+python3 test.py -policy test -pre location -pre_info 4 4 -n 1 -spec_his [0, 4, 4, 3] 0 [1, 4, 4, 3] 0 [2, 4, 4, 3] 0 [3, 4, 4, 3] 0 [4, 4, 4, 3] -csv 'location_44_k4.csv' -k 4
+
+python3 test.py -policy test -pre location -pre_info 4 3 -n 1 -spec_his [0, 4, 4, 3] 0 [1, 4, 4, 3] 0 [2, 4, 4, 3] 0 [3, 4, 4, 3] 0 [4, 4, 4, 3] 3 [4, 3, 4, 3] -csv 'location_43_k5.csv' -k 5
